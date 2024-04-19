@@ -1,0 +1,82 @@
+/* Style for form container */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* Style for headings */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style for form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Style for submit button */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Style for signup link */
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for signup link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Hover effect for signup link */
+a:hover {
+    text-decoration: underline;
+}
