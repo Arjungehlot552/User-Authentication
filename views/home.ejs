@@ -10,24 +10,19 @@
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand">Home Page</a>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="http://localhost:8080/">Login</a></li>
-                    <li><a class="dropdown-item" href="http://localhost:8080/signup">SignUP</a></li>
-                </ul>
-            </div>
+           
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-                <button type="button" class="btn btn-primary" onclick="window.location.href='http://localhost:8080/'">
-                    <i class="bi bi-person"></i> Login
-                </button>
-                <button type="button" class="btn btn-success" onclick="window.location.href='http://localhost:8080/signup'">
-                    <i class="bi bi-person-plus"></i> Sign Up
-                </button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="http://localhost:8080/">Login</a></li>
+                        <li><a class="dropdown-item" href="http://localhost:8080/signup">SignUP</a></li>
+                    </ul>
+                </div>
             </form>
         </div>
     </nav>
