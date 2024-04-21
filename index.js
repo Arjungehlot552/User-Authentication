@@ -61,7 +61,12 @@ app.post("/login" , async (req,res)=>{
    try{
        const check = await collection.findOne({name: req.body.username});
        if(!check){
-        res.send("User name cannot found");
+        res.send(`
+        <script>
+        alert("User not Found");
+        window.location.href = '/'; // Redirect to the login page
+       </script>
+    `);
         }
         //compare the hash password from the databse with the original password
         const isPasswordMatch = await bcrypt.compare(req.body.password , check.password);
